@@ -30,9 +30,11 @@ To get your API key, you need to create one from your profile in Home Assistant:
 
 [![My Home Assistant profile](https://my.home-assistant.io/badges/profile.svg)](https://my.home-assistant.io/redirect/profile)
 
-![Setting the variables](images/variables.jpg)
+An API key can be obtained from the bottom of this page, under **Long-lived Access Tokens**.
 
 You will set these in the environment variables of the workflow when you install it. You can also change the variables later by clicking the ![Variables icon](images/variables-icon.jpg) variables icon in the workflow.
+
+![Setting the variables](images/variables.jpg)
 
 If you do not set these, your workflow will not be able to connect.
 
