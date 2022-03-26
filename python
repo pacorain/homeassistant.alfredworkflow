@@ -1,0 +1,18 @@
+#!/bin/zsh
+#
+# Python shim
+
+if [[ -n $PYTHON ]] ; then
+    $PYTHON "$@"
+
+elif [[ -f venv/bin/python ]] ; then
+    venv/bin/python "$@"
+
+elif [[ $AUTO_INSTALL == "1" ]] ; then
+    ./install.sh 1>&2
+    venv/bin/python "$@"
+
+else 
+    python "$@"
+fi
+
