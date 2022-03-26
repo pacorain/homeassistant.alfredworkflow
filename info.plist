@@ -10,13 +10,13 @@
 		<array/>
 	</dict>
 	<key>createdby</key>
-	<string></string>
+	<string>Austin "Paco" Rainwater</string>
 	<key>description</key>
-	<string></string>
+	<string>Monitor Home Assistant from Alfred</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Home Assistant Stuff</string>
+	<string>Home Assistant Tools</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -152,8 +152,8 @@
 		<string>HASS_URL</string>
 	</array>
 	<key>version</key>
-	<string></string>
+	<string>1.0</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/pacorain/homeassistant.alfredworkflow</string>
 </dict>
 </plist>
