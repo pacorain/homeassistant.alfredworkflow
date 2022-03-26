@@ -45,7 +45,7 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>Loading...</string>
+				<string>Loading... (First run may take a little while)</string>
 				<key>script</key>
 				<string>venv/bin/python template.py "$1"</string>
 				<key>scriptargtype</key>
@@ -94,7 +94,7 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>Loading...</string>
+				<string>Loading... (First run may take a little while)</string>
 				<key>script</key>
 				<string>./python state.py "$1"</string>
 				<key>scriptargtype</key>
