@@ -144,7 +144,7 @@
 		<key>HASS_API_KEY</key>
 		<string></string>
 		<key>HASS_URL</key>
-		<string></string>
+		<string>http://homeassistant.local:8123</string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
