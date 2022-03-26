@@ -17,7 +17,7 @@ mkdir -p tmp
 ${PYTHON} -m pip install -t tmp virtualenv
 
 # Use virtualenv to create a virtual environment
-${PYTHON} -m tmp.virtualenv venv
+PYTHONPATH=${PWD}/tmp:${PYTHONPATH} ${PYTHON} -m virtualenv venv
 
 # Delete the temp directory
 rm -rf tmp
